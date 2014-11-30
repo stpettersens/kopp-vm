@@ -1,0 +1,13 @@
+#
+# Travis CI configuration for Kopp VM.
+#
+
+# This is a Node.js project; test against Node.js 0.10 and 0.11.
+language: node_js
+node_js:
+  - "0.10"
+  - 0.11
+
+before_script: ./koppvm -i
+script: ./koppvm -jar hw.jar
+

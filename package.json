@@ -1,0 +1,27 @@
+{
+  "name": "kopp-vm",
+  "version": "1.0.0",
+  "description": "Node.js powered Java virtual machine (JVM)",
+  "main": "./lib/KoppVMApp.js",
+  "scripts": {
+    "test": "node_modules/bin/mocha ./lib/KoppVM.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stpettersens/kopp-vm"
+  },
+  "keywords": [
+    "java",
+    "virtual",
+    "machine",
+    "jvm",
+    "vm",
+    "cli"
+  ],
+  "author": "Sam Saint-Pettersen <s.stpettersen+github@gmail.com> (http://github.com/stpettersens)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stpettersens/kopp-vm/issues"
+  },
+  "homepage": "https://github.com/stpettersens/kopp-vm"
+}

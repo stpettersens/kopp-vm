@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+/*
+Kopp VM
+Node.js powered Java virtual machine (JVM)
+
+Copyright 2014 Sam Saint-Pettersen.
+
+Released under the MIT/X11 License.
+Please see LICENSE file.
+*/
+
+// Invoke the Kopp VM command line interface (CLI).
+require('./lib/KoppVMApp.js').cli(process.argv);
+

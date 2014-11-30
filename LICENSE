@@ -1,6 +1,7 @@
-The MIT License (MIT)
+Kopp VM
+Node.js powered Java virtual machine (JVM)
 
-Copyright (c) 2014 Sam Saint-Pettersen
+Copyright (c) 2014 Sam Saint-Pettersen.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
