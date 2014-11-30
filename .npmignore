@@ -1,3 +1,6 @@
+node_modules/
 *.jar
 .gitignore
 .npmignore
+./koppvm
+./koppvm.cmd
