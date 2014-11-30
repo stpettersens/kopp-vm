@@ -3,8 +3,20 @@
   "version": "1.0.0",
   "description": "Node.js powered Java virtual machine (JVM)",
   "main": "./lib/KoppVMApp.js",
+  "bin": {
+      "koppvm": "./bin/koppvm"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+      "generic-functions": ">= 0.1.6"
+  },
+  "devDependencies": {
+      "mocha": ">= 2.0.1",
+      "should": ">= 4.3.0",
+      "assert": ">= 1.1.2"
+  },
   "scripts": {
-    "test": "node_modules/bin/mocha ./lib/KoppVM.test.js"
+    "test": "node_modules/mocha/bin/mocha ./lib/KoppVM.test.js"
   },
   "repository": {
     "type": "git",
